@@ -1,0 +1,2837 @@
+.nopadding
+{
+    padding:0px !important
+}
+.nomargin
+{
+    margin:0px !important
+}
+.margintop10
+{
+    margin-top:10px !important
+}
+.margintop15
+{
+    margin-top:15px !important
+}
+.margintop20
+{
+    margin-top:20px !important
+}
+.margintop25
+{
+    margin-top:25px !important
+}
+.margintop30
+{
+    margin-top:30px !important
+}
+.margintop35
+{
+    margin-top:35px !important
+}
+.margintop40
+{
+    margin-top:40px !important
+}
+.margintop45
+{
+    margin-top:45px !important
+}
+.paddingtop10
+{
+    padding-top:10px !important
+}
+.paddingtop15
+{
+    padding-top:15px !important
+}
+.paddingtop20
+{
+    padding-top:20px !important
+}
+.paddingtop25
+{
+    padding-top:25px !important
+}
+.paddingtop30
+{
+    padding-top:00px !important
+}
+.paddingtop35
+{
+    padding-top:35px !important
+}
+.paddingtop40
+{
+    padding-top:40px !important
+}
+.paddingtop45
+{
+    padding-top:45px !important
+}
+body
+{
+    font-family:PoppinsR;
+    color:#000;
+}
+.tophed
+{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.tophed .firstname
+{
+    margin-right:10px;
+}
+.tophed a
+{
+    margin-left:10px;
+    color:#000;
+}
+.navbar-brand img
+{
+    height:60px;
+}
+.btn-sell
+{
+    border:2px solid #000;
+    padding:13px 30px !important;
+    transition:all ease 0.5s;
+    text-align:center;
+    font-size: 12px;
+    font-family: PoppinsM;
+    width:143px;
+    color:#000 !important;
+}
+.btn-sell:hover
+{
+    background:#000 !important;
+    color:#fff !important;
+    transition:all ease 0.5s;
+    text-decoration:none;
+}
+.nav li a
+{
+    font-family:PoppinsM;
+    color:#000;
+}
+.mainbanner .col-sm-4
+{
+    padding-right:10px;
+}
+.mainbanner .Yezzy
+{
+    padding-left:10px;
+    padding-right:10px !important;
+}
+.mainbanner .Jordan, .mainbanner .col-sm-12
+{
+    padding-left:10px !important;
+}
+.placeimg
+{
+//background:url(../img/img1.png);
+    width:100%;
+    background-size:cover !important;
+    text-align:center;
+    height: 536px;
+    padding-top:443px;
+}
+
+.AdidasY
+{
+//background:url(../img/img2.png);
+    width:100%;
+    background-size:cover !important;
+    text-align:center;
+    height: 258px;
+    padding-top:165px;
+    margin-bottom:20px;
+}
+.nike
+{
+//background:url(../img/img3.png);
+    width:100%;
+    background-size:cover !important;
+    text-align:center;
+    height: 258px;
+    padding-top:165px;
+    margin-bottom:20px;
+}
+.Supreme
+{
+//background:url(../img/img4.png);
+    width:100%;
+    background-size:cover !important;
+    text-align:center;
+    height: 258px;
+    padding-top:165px;
+    margin-bottom:20px;
+}
+.placeimg h4, .AdidasY h4, .nike h4, .Supreme h4
+{
+    font-family:OpenSansB;
+    color:#000;
+    margin-bottom:13px;
+    font-size:22px;
+}
+.placeimg a, .AdidasY a, .nike a, .Supreme a
+{
+    text-decoration:underline;
+    color:#000;
+    font-family:OpenSansSB;
+    font-size:16px;
+}
+.placeimg a:hover, .AdidasY a:hover, .nike a:hover, .Supreme a:hover
+{
+    text-decoration:none;
+}
+
+
+
+/*.placeimg
+{
+	position:relative;
+}
+.placeimg img
+{
+	position:absolute;
+	top:0px;
+	height:551px;
+}
+
+.placeimg .innertext
+{
+	position:absolute;
+	top:473px;
+	width: 100%;
+}
+.placeimg .innertext h4, .placeimg .innertext a
+{
+	text-align:center;
+	display: inline-block;
+	width: 100%;
+}*/
+
+
+
+.mainbanner
+{
+    margin-top:30px;
+}
+.Trending
+{
+    margin-top:50px;
+}
+.Trending h3
+{
+    font-size:30px;
+    margin-top: 0px;
+    margin-bottom:7px;
+    line-height: 43px;
+}
+.Trending span
+{
+    color:#7f7f7f;
+    font-family:OpenSansR;
+    font-size:18px;
+    line-height:24px;
+}
+.Trending .innerdiv
+{
+    display:inline-block;
+    width:100%;
+}
+.Trending .innerdiv h4
+{
+    margin-top:19px;
+    font-family:OpenSansSB;
+    font-size:16px;
+    line-height:26px;
+}
+.Trending .adidasimg
+{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.btnview
+{
+    text-align:center;
+    margin-top:40px;
+    display:inline-block;
+    width:100%;
+}
+.btnview a
+{
+    color:#000;
+}
+
+.btnview .btn-sell
+{
+    width:180px;
+    display:inline-block;
+    font-size: 12px;
+    font-family: PoppinsM;
+    height:50px;
+    padding:15px 30px !important;
+}
+.col-sm-20
+{
+    width:20%;
+    float:left;
+    padding-left:15px;
+    padding-right:15px;
+}
+.col-sm-16
+{
+    width:16.6%;
+    float:left;
+    padding-left:15px;
+    padding-right:15px;
+}
+.Trending .innerdiv p
+{
+    font-size:16px;
+    line-height:23px;
+    margin-bottom:0px;
+}
+.Trending
+{
+    margin-bottom:30px;
+}
+.footer
+{
+    background:#000000;
+    display:inline-block;
+    width:100%;
+    margin-bottom:-5px;
+    padding:15px 0px;
+    margin-top:50px;
+}
+.footer ul
+{
+    padding-left:0px;
+    margin-bottom:0px;
+}
+.footer ul li
+{
+    display:inline-block;
+}
+.footer .pull-left ul li a
+{
+    color:#cccccc;
+    font-size:26px;
+    transition:all ease 0.5s;
+    margin-right:15px;
+    text-decoration:none;
+}
+.footer .pull-right ul li a
+{
+    color:#cccccc;
+    font-size:14px;
+    transition:all ease 0.5s;
+    padding-left:10px;
+    padding-right:10px;
+    text-decoration:none;
+    border-left:1px solid #ccc;
+}
+.footer ul li a:hover
+{
+    color:#fff;
+    transition:all ease 0.5s;
+}
+.footer .pull-right
+{
+    margin-top:9px;
+}
+.navbar-right
+{
+    margin-top:5px;
+}
+.navbar-form
+{
+    margin-top:11px;
+}
+.navbar-form .form-control
+{
+    border-radius:0px;
+    box-shadow: none;
+    border-left: transparent;
+    border-right: transparent;
+    border-top:transparent;
+    padding-left:30px;
+}
+.navbar-form .form-control:focus
+{
+    border-color:#333;
+    box-shadow:none;
+}
+.navbar-form .btn
+{
+    border-radius:0px;
+}
+.navbar-form .form-group
+{
+    width:400px;
+}
+.navbar-form .form-group
+{
+    position:relative;
+}
+.navbar-form .form-group a
+{
+    position:absolute;
+    left:10px;
+    top:7px;
+    color:#999;
+}
+.sneaker h2
+{
+    font-family:PoppinsM;
+    margin-top:50px;
+    margin-bottom: 25px;
+    font-size:40px;
+}
+/*******************************checkbox*************************************/
+.checkbox {
+    padding-left: 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #333;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    padding-left: 3px;
+    padding-top: 1px;
+    font-size: 11px;
+    color: #555555; }
+.checkbox input[type="checkbox"] {
+    opacity: 0; }
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+.checkbox input[type="checkbox"]:checked + label::after {
+    font-family: 'FontAwesome';
+    content: "\f00c"; }
+.checkbox input[type="checkbox"]:disabled + label {
+    opacity: 0.65; }
+.checkbox input[type="checkbox"]:disabled + label::before {
+    background-color: #eeeeee;
+    cursor: not-allowed; }
+.checkbox.checkbox-circle label::before {
+    border-radius: 50%; }
+.checkbox.checkbox-inline {
+    margin-top: 0; }
+
+.checkbox-primary input[type="checkbox"]:checked + label::before {
+    background-color: #428bca;
+    border-color: #428bca; }
+.checkbox-primary input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.checkbox-danger input[type="checkbox"]:checked + label::before {
+    background-color: #d9534f;
+    border-color: #d9534f; }
+.checkbox-danger input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.checkbox-info input[type="checkbox"]:checked + label::before {
+    background-color: #5bc0de;
+    border-color: #5bc0de; }
+.checkbox-info input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.checkbox-warning input[type="checkbox"]:checked + label::before {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e; }
+.checkbox-warning input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.checkbox-success input[type="checkbox"]:checked + label::before {
+    background-color: #5cb85c;
+    border-color: #5cb85c; }
+.checkbox-success input[type="checkbox"]:checked + label::after {
+    color: #fff; }
+
+.radio {
+    padding-left: 20px; }
+.radio label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px; }
+.radio label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transition: border 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out; }
+.radio label::after {
+    display: inline-block;
+    position: absolute;
+    content: " ";
+    width: 11px;
+    height: 11px;
+    left: 3px;
+    top: 3px;
+    margin-left: -20px;
+    border-radius: 50%;
+    background-color: #555555;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
+    -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+    transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
+.radio input[type="radio"] {
+    opacity: 0; }
+.radio input[type="radio"]:focus + label::before {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+.radio input[type="radio"]:checked + label::after {
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); }
+.radio input[type="radio"]:disabled + label {
+    opacity: 0.65; }
+.radio input[type="radio"]:disabled + label::before {
+    cursor: not-allowed; }
+.radio.radio-inline {
+    margin-top: 0; }
+
+.radio-primary input[type="radio"] + label::after {
+    background-color: #428bca; }
+.radio-primary input[type="radio"]:checked + label::before {
+    border-color: #428bca; }
+.radio-primary input[type="radio"]:checked + label::after {
+    background-color: #428bca; }
+
+.radio-danger input[type="radio"] + label::after {
+    background-color: #d9534f; }
+.radio-danger input[type="radio"]:checked + label::before {
+    border-color: #d9534f; }
+.radio-danger input[type="radio"]:checked + label::after {
+    background-color: #d9534f; }
+
+.radio-info input[type="radio"] + label::after {
+    background-color: #5bc0de; }
+.radio-info input[type="radio"]:checked + label::before {
+    border-color: #5bc0de; }
+.radio-info input[type="radio"]:checked + label::after {
+    background-color: #5bc0de; }
+
+.radio-warning input[type="radio"] + label::after {
+    background-color: #f0ad4e; }
+.radio-warning input[type="radio"]:checked + label::before {
+    border-color: #f0ad4e; }
+.radio-warning input[type="radio"]:checked + label::after {
+    background-color: #f0ad4e; }
+
+.radio-success input[type="radio"] + label::after {
+    background-color: #5cb85c; }
+.radio-success input[type="radio"]:checked + label::before {
+    border-color: #5cb85c; }
+.radio-success input[type="radio"]:checked + label::after {
+    background-color: #5cb85c; }
+/*******************************checkbox*************************************/
+
+
+.sneaker .leftbar h4
+{
+    font-family:OpenSansB;
+    font-size:16px;
+    margin-top:7px;
+    line-height:22px;
+}
+.sneaker .leftbar a
+{
+    color:#000;
+    text-decoration:underline;
+    font-family:OpenSansSB;
+    margin-bottom: 25px;
+    display: inline-block;
+    font-size:16px;
+}
+.adidasimg img
+{
+    max-width: 100%;
+    height: 75%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+.sneaker .leftbar a:hover
+{
+    color:#000;
+    text-decoration:none;
+}
+.sortby
+{
+    display:inline-block;
+    width:100%;
+}
+.sortby .btn-group.open .dropdown-toggle
+{
+    box-shadow:none
+}
+.sortby .btn-group
+{
+    min-width:130px;
+}
+.sortby label
+{
+    font-size: 16px;
+}
+.brandmain .adidasimg
+{
+    padding-top:50px;
+    padding-bottom:25px;
+}
+.sneaker .brandmain h4
+{
+    margin-top: 19px;
+    font-family: OpenSansSB;
+    font-size:16px;
+
+}
+.sortby a.dropdown-toggle
+{
+    text-decoration:none;
+    border-bottom:1px solid #000;
+    color:#000;
+    padding:5px;
+    display:inline-block;
+    width:100%;
+    padding-bottom:0px;
+}
+
+
+/*********************************Slider**************************************/
+.preview {
+    margin-top:43px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+@media screen and (max-width: 996px) {
+    .preview {
+        margin-bottom: 20px; } }
+
+.preview-pic {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
+
+.preview-thumbnail.nav-tabs {
+    border: none;
+    margin-top: 15px; }
+.preview-thumbnail.nav-tabs li {
+    width: 23%;
+    margin-right: 2.5%; }
+.preview-thumbnail.nav-tabs li img {
+    max-width: 100%;
+    display: block; }
+.preview-thumbnail.nav-tabs li a {
+    padding: 5px 0px;
+    margin: 0;
+    cursor:pointer;
+}
+.preview-thumbnail.nav-tabs li:last-of-type {
+    margin-right: 0; }
+
+.tab-content {
+    overflow: hidden; }
+.tab-content img {
+    width: 100%;
+}
+
+.card {
+    margin-top: 50px;
+    background: #eee;
+    padding: 3em;
+    line-height: 1.5em; }
+.myaccountbuy .rightbar .dataTables_filter {
+    top: 7px;
+    position: absolute;
+    right: 0;
+}
+
+
+@-webkit-keyframes opacity {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(3);
+        transform: scale(3); }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1); } }
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(3);
+        transform: scale(3); }
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1); } }
+
+/*# sourceMappingURL=style.css.map */
+
+.detailpage .nav > li > a:hover, .nav > li > a:focus
+{
+    background-color:transparent;
+    border-color:#000;
+    border-radius:0px;
+}
+.detailpage .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+    border-color:#000;
+    border-radius:0px;
+}
+.detailpage .nav-tabs
+{
+    padding:0px 10%;
+}
+.detailpage .preview-pic .highbid
+{
+    margin:46px 0px;
+}
+.detailpage .preview-pic .highbid h4
+{
+    font-family: PoppinsSB;
+    text-align:center;
+    margin-bottom:30px;
+}
+.detailpage .preview-pic .highbid h4 span
+{
+    font-family: PoppinsR;
+}
+
+/*********************************Slider**************************************/
+.detailpage, .Congrates, .forgetpass, .myaccountbuy
+{
+    margin-top:50px;
+    min-height:520px;
+}
+.rightdetail h4
+{
+    font-family: OpenSansR;
+}
+.rightdetail h3
+{
+    font-family: OpenSansSB;
+    margin-top:12px;
+}
+.rightdetail .newCondition
+{
+    font-family: OpenSansB;
+    margin-top:40px;
+    margin-bottom:30px;
+}
+.rightdetail .newCondition span
+{
+    font-family: PoppinsR;
+}
+.rightdetail .size
+{
+    font-family: OpenSansR;
+}
+.rightdetail .sizebox
+{
+    width:11%;
+    float:left;
+    margin-right:1.5%;
+    text-align:center;
+    background:#f9f9f9;
+    cursor:pointer;
+    transition:all ease 0.5s;
+    margin-bottom:10px;
+    min-height:65px;
+}
+.rightdetail .sizebox.active, .rightdetail .sizebox.active a
+{
+    background:#000;
+    color:#fff;
+}
+
+.rightdetail .sizebox:hover
+{
+    transition:all ease 0.5s;
+    background:#000;
+}
+.rightdetail .sizebox:hover a
+{
+    color:#fff;
+    transition:all ease 0.5s;
+}
+.rightdetail .sizebox h5 a:hover
+{
+    color:#fff;
+    transition:all ease 0.5s;
+}
+.rightdetail .sizebox h5
+{
+    font-family: PoppinsSB;
+    margin-bottom:7px;
+    font-size:16px;
+}
+.rightdetail .sizebox h5 a
+{
+    color:#000;
+    text-decoration:none;
+}
+.rightdetail .sizebox p a
+{
+    color:#00b636;
+    text-decoration:none;
+}
+.rightdetail .allprice
+{
+    color:#7f7f7f;
+    display:inline-block;
+    width:100%;
+}
+.rightdetail .footbtn
+{
+    display:inline-block;
+    width:100%;
+    margin-top:35px;
+}
+.rightdetail .footbtn .btn-sell
+{
+    border-color:#7f7f7f;
+    min-width:170px;
+    text-align:center;
+    display:inline-block;
+    margin-right:50px
+}
+.rightdetail .footbtn .btn-sell:hover
+{
+    border-color:#000;
+}
+.rightdetail .footbtn a
+{
+    color:#7f7f7f;
+}
+.prodetail
+{
+    margin-top:60px;
+}
+.prodetail h4
+{
+    font-family: PoppinsSB;
+}
+.prodetail h5
+{
+    font-family: OpenSansB;
+    font-size:16px;
+}
+.prodetail h5 span
+{
+    font-family: OpenSansR;
+    color:#000;
+}
+
+.bgfirst
+{
+    background:url(../img/login.png) no-repeat center;
+    background-size:cover;
+    display:inline-block;
+    width:100%;
+    min-height:600px;
+    margin-bottom:-5px;
+}
+.logindiv .closeicon
+{
+    display:inline-block;
+    width:100%;
+    margin-top:50px;
+    margin-bottom:10px;
+}
+.logindiv .closeicon a
+{
+    color:#cfcfcf;
+    font-size:18px;
+    text-decoration:none;
+}
+.logindiv .closeicon a:hover
+{
+    color:#fff;
+}
+.bgsecond
+{
+    background:url(../img/signup.png) no-repeat center;
+    background-size:cover;
+    display:inline-block;
+    width:100%;
+    min-height:657px;
+    margin-bottom:-5px;
+}
+.bgsecond p
+{
+    color:#ccc;
+    font-family:OpenSansR;
+    font-size:13px;
+}
+.bgsecond p a
+{
+    color:#ccc;
+    text-decoration:underline;
+}
+.bgsecond p a:hover
+{
+    color:#ccc;
+    text-decoration:none;
+}
+.logindiv h3
+{
+    font-family: PoppinsM;
+    color:#fff;
+    margin-bottom:50px;
+    font-size: 30px;
+}
+.modalwidth .modal-body
+{
+    margin-bottom: 60px;
+    display: inline-block;
+    width: 100%;
+}
+.logindiv .form-group {
+    margin-bottom: 30px;
+}
+.logindiv .form-control
+{
+    background: transparent;
+    border-radius:0px;
+    border:none;
+    border-bottom:1px solid #c7c7c7;
+    box-shadow:none;
+    color:#fff;
+}
+.logindiv .form-control:focus
+{
+    box-shadow:none;
+    border-bottom:1px solid #fff;
+}
+.submit-btn
+{
+    padding:13px 40px;
+    background:#fff;
+    transition:all ease 0.5s;
+    margin-top:10px;
+    display:inline-block;
+    margin-bottom:30px;
+}
+.submit-btn:hover
+{
+    background:#e3e3e3;
+    transition:all ease 0.5s;
+}
+.submitbtn a
+{
+    color:#000;
+    text-decoration:none;
+}
+.rightdetail .sizebox a
+{
+    color:#000;
+    text-decoration:none;
+}
+.logindiv .footmod
+{
+    display:inline-block;
+    width:100%;
+    margin-bottom: 40px;
+}
+.logindiv .footmod a
+{
+    text-decoration:underline;
+    color:#fff;
+    font-family:OpenSansR;
+}
+.logindiv .footmod a:hover
+{
+    text-decoration:none;
+}
+.modalwidth .close
+{
+    color:#fff;
+    opacity: 1;
+}
+.modalwidth .modal-body .form-control::placeholder
+{
+    color:#fff;
+}
+.Trending .innerdiv a, .brandmain a
+{
+    color:#000;
+    text-decoration:none;
+}
+.sellsearch
+{
+    margin-top:50px;
+    min-height: 650px;
+}
+.sellsearch h3
+{
+    font-size: 26px;
+    font-family: PoppinsM;
+}
+.sellsearch .form-group
+{
+    position: relative;
+    margin-bottom:2px;
+}
+.sellsearch .form-control {
+    border-radius: 0px;
+    box-shadow: none;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    padding-left: 30px;
+    font-size:16px;
+}
+.sellsearch .form-control:focus
+{
+    border-color:#000;
+}
+.sellsearch .form-group a
+{
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    color: #999;
+}
+.sellsearch .searchlist
+{
+    display:inline-block;
+    width:100%;
+    background:#fff;
+    box-shadow:0 1px 14px 0 rgba(0, 0, 0, 0.2);
+    padding:15px;
+    max-height:500px;
+    overflow:auto;
+}
+.sellsearch .searchlist img
+{
+    margin-top:5px;
+    height: 60px;
+    margin: 0 auto;
+}
+.sellsearch .searchlist .col-sm-4
+{
+    padding-right:5px;
+}
+.sellsearch .searchlist .col-sm-8
+{
+    padding-left:5px;
+}
+.sellsearch .searchlist .borderbot
+{
+    border-bottom:1px solid #ccc;
+    display: inline-block;
+    width:100%;
+}
+.sellsearch .searchlist h5
+{
+    font-size:16px;
+    margin-bottom: 3px;
+}
+
+.rightdetail h2
+{
+    font-size:30px;
+    margin-bottom:25px;
+}
+.rightdetail .footpro a.btn-sell
+{
+    background:#000;
+    min-width: 170px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 50px;
+    color:#fff !important;
+    transition:all ease 0.5s;
+    text-decoration:none;
+}
+.rightdetail .footpro .btn-sell:hover
+{
+    background:#4f4f4f !important;
+    border-color:#4f4f4f !important;
+    transition:all ease 0.5s;
+}
+.rightdetail .footpro
+{
+    margin-top:40px;
+}
+.rightdetail .footpro a
+{
+    color:#000;
+    text-decoration:underline;
+}
+.rightdetail .footpro a:hover
+{
+    text-decoration:none;
+}
+.productchose
+{
+    text-align:center;
+}
+.productchose img
+{
+    margin-top:120px;
+}
+.productchose h4
+{
+    font-family:OpenSansSB;
+}
+.rightdetail .phead
+{
+    margin-bottom:15px;
+}
+.rightdetail .ReleaseD h5
+{
+    font-family:OpenSansB;
+    margin-top:30px;
+}
+.rightdetail .ReleaseD h5 span
+{
+    font-family:OpenSansR;
+}
+.upcomingslid .preview-pic
+{
+    margin-bottom:50px;
+    margin-top:50px;
+}
+.rightdetail h2
+{
+    font-family: PoppinsR;
+}
+.righthow h4
+{
+    font-family:OpenSansB;
+    margin-top:30px;
+}
+.righthow
+{
+    width:65%;
+}
+.righthow h2
+{
+    margin-bottom:0px;
+}
+.leftimgtext h4
+{
+    font-family:OpenSansSB;
+}
+.leftimgtext h4 span
+{
+    font-family:OpenSansR;
+}
+.steps h4
+{
+    /*border-bottom: 1px solid #7f7f7f;*/
+    display: inline-block;
+    width: 100%;
+    padding-bottom:5px;
+}
+.steps h4 a
+{
+    color: #7f7f7f;
+    text-decoration: none;
+}
+.steps h4.active
+{
+    border-bottom: 1px solid #000;
+    font-family:OpenSansSB;
+    display: inline-block;
+    width: 100%;
+    color:#000;
+}
+.steps h4.active a
+{
+    color: #000;
+}
+.steps h4.active .pull-right
+{
+    font-size:14px;
+    text-decoration:underline;
+}
+.steps h4.active .pull-right:hover
+{
+    text-decoration:none;
+}
+.steps
+{
+    padding-bottom:50px;
+}
+.searchlist a
+{
+    color:#333;
+    text-decoration:none;
+}
+.buynow .asking, .placebid .asking
+{
+    display:inline-block;
+    width:100%;
+}
+.buynow, .placebid
+{
+    margin-top:20px;
+    display:none;
+}
+/*.buynow .asking p, .placebid .asking p
+{
+	font-family:OpenSansSB;
+}*/
+.buynow .total h5, .placebid .total h5
+{
+    font-family:OpenSansB;
+    font-size:18px;
+}
+.buynow .total, .placebid .total
+{
+    padding-top:10px;
+    border-top:1px solid #7f7f7f;
+    margin-top:15px;
+}
+.btn-black
+{
+    background: #000;
+    min-width: 170px;
+    transition:all ease 0.5s;
+    color:#fff !important;
+    border-radius:0px;
+    text-decoration:none !important;
+    padding:13px 30px;;
+}
+.buynow .footpro, .placebid .footpro
+{
+    margin-top:25px;
+    display:inline-block;
+    width:100%;
+}
+.footpro .btn-black, .footpro .footpro
+{
+    margin-right:30px;
+}
+.btn-black:hover
+{
+    background:#4f4f4f;
+    transition:all ease 0.5s;
+}
+.placebid .steps
+{
+    margin-top:30px;
+    padding-bottom:20px;
+}
+.steps .confirmprice h5
+{
+    font-size:16px;
+    margin-bottom:0px;
+}
+.steps .confirmprice
+{
+    display:inline-block;
+    width:100%;
+}
+.paypaldiv, .visadiv
+{
+    margin-top:20px;
+    display:none;
+}
+.form-control
+{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-radius:0px;
+    border-bottom-color:#ccc;
+    box-shadow:none;
+}
+.form-control:focus
+{
+    border-color:#000;
+    box-shadow:none;
+}
+.visadiv .form-group, .shipingadd .form-group
+{
+    margin-bottom:35px;
+}
+.carddetail h5
+{
+    margin-bottom:15px;
+}
+.carddetail p
+{
+    margin-bottom:3px;
+}
+.shipingadd
+{
+    margin-top:20px;
+}
+.shipingadd .footpro
+{
+    margin-top:10px;
+}
+.revieworder h3
+{
+    font-family: PoppinsR;
+    margin-bottom:30px;
+}
+.revieworder .ProductD
+{
+    margin-bottom:20px;
+}
+.revieworder .ProductD h4
+{
+    font-family: OpenSansB;
+    font-size:14px;
+    margin-top:0px;
+}
+.revieworder .ProductD p
+{
+    margin-bottom:3px;
+}
+.Congrates h3
+{
+    font-family: PoppinsR;
+    margin-top:10px;
+}
+.Congrates h5
+{
+    font-family: OpenSansB;
+    margin-top:30px;
+}
+.Congrates p a
+{
+    color:#000;
+    text-decoration:underline;
+}
+.Congrates p a:hover
+{
+    text-decoration:none;
+}
+.Congrates .footpro
+{
+    margin-top:35px;
+}
+.Congrates .footpro a
+{
+    color:#000;
+    text-decoration:underline;
+}
+.Congrates .footpro a:hover
+{
+    text-decoration:none;
+}
+.faq
+{
+    margin-top:50px;
+}
+.faq h3
+{
+    font-family: PoppinsM;
+    margin-bottom:0px;
+    font-size:30px;
+}
+.faq h4
+{
+    margin-top:25px;
+    font-family: OpenSansB;
+}
+.faq p
+{
+    line-height:28px;
+    font-size:16px;
+}
+.forgetpass h3
+{
+    font-family: PoppinsR;
+    font-size:30px;
+    margin-bottom:30px;
+}
+.forgetpass .form-group
+{
+    margin-bottom:30px;
+}
+.forgetpass .footpro
+{
+    margin-top:10px;
+    display: inline-block;
+}
+.editorder .asking,.editorder .total
+{
+    display:inline-block;
+    width:100%;
+}
+.editorder .asking p
+{
+    font-family: OpenSansSB;
+}
+.editorder .steps
+{
+    padding-bottom:40px
+}
+.editorder .total
+{
+    border-top:1px solid #000;
+}
+.editorder .total h5
+{
+    font-size:16px;
+    font-family:OpenSansB
+}
+.myaccountbuy
+{
+    margin-top:50px;
+}
+.myaccountbuy h3
+{
+    font-family: PoppinsM;
+    margin-top:0px;
+    margin-bottom:30px;
+}
+.myaccountbuy .sidebarleft
+{
+    padding-left:0px;
+}
+.myaccountbuy .sidebarleft li
+{
+    list-style:none;
+}
+.myaccountbuy .sidebarleft li a
+{
+    color:#7f7f7f;
+    text-decoration:none;
+    padding:8px 0px;
+    display:inline-block;
+    width:100%;
+    transition:all ease 0.5s;
+}
+.myaccountbuy .sidebarleft li a:hover
+{
+    color:#000;
+    transition:all ease 0.5s;
+}
+.myaccountbuy .sidebarleft li a.active
+{
+    color:#000;
+}
+.myaccountbuy .rightbar h4
+{
+    font-family: PoppinsR;
+    font-size:24px;
+}
+.myaccountbuy .rightbar .table
+{
+    margin-top:30px;
+}
+.myaccountbuy .rightbar .table tr th
+{
+    font-family:OpenSansB;
+    font-weight:normal;
+}
+.myaccountbuy .rightbar .table tr .third
+{
+//width:200px;
+}
+.myaccountbuy .rightbar .table tr .delt
+{
+    width:50px;
+    text-align:center;
+}
+.myaccountbuy .rightbar .table tr .delt a
+{
+    color:#000;
+}
+.myaccountbuy .rightbar .table tbody
+{
+    border-bottom:1px solid #ddd;
+}
+.myaccountbuy .rightbar .table > thead > tr > th
+{
+    border-bottom:none;
+}
+.myaccountbuy .rightbar .table tr td
+{
+//width:100px;
+    font-family:OpenSansR;
+}
+.myaccountbuy .rightbar .table tr .proname a
+{
+    font-family:OpenSansSB;
+    text-decoration:underline;
+    color:#000;
+}
+.myaccountbuy .rightbar .table tr .proname a:hover
+{
+    text-decoration:none;
+}
+.myaccountbuy .rightbar .table tr .accept a
+{
+    color:#000;
+    text-decoration:underline;
+    font-family:OpenSansSB;
+}
+.myaccountbuy .rightbar .table tr .accept a:hover
+{
+    text-decoration:none;
+}
+.myaccountbuy .rightbar .table tr td p
+{
+    margin-bottom:0px;
+}
+.myaccountbuy .rightbar .table tr td p span
+{
+    font-size:12px;
+}
+.myaccountbuy .rightbar .nav li a
+{
+    color:#7f7f7f;
+    padding:10px 25px 5px 0px;
+    text-decoration:underline;
+}
+.myaccountbuy .rightbar .nav li a:hover
+{
+    color:#000;
+    background:transparent;
+    border-color:#fff;
+}
+.myaccountbuy .rightbar .nav-tabs
+{
+    border-color:#fff;
+}
+.myaccountbuy .rightbar .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+{
+    color:#000 !important;
+    border-color:#fff;
+}
+.myaccountbuy .rightbar .sortby label
+{
+    font-size:14px;
+}
+.myaccountbuy .rightbar .sortby .btn-group
+{
+    min-width:100px;
+}
+.myaccountbuy .rightbar .sortby a.dropdown-toggle
+{
+    padding:0px 5px;
+}
+.myaccountbuy .rightbar .nav .open > a, .nav .open > a:hover, .nav .open > a:focus
+{
+    background:transparent;
+}
+.myaccountbuy .rightbar .dropdown-menu > li > a
+{
+    text-decoration:none;
+    padding-left:15px;
+}
+.accountsetting h5
+{
+    font-family:OpenSansB;
+    margin-top:0px;
+}
+.mainaccount h4
+{
+    margin-bottom:30px;
+}
+.accountsetting h5 a
+{
+    color:#000;
+    text-decoration:underline;
+    cursor:pointer;
+}
+.accountsetting h5 a:hover
+{
+    color:#000;
+    text-decoration:none;;
+}
+.accountsetting
+{
+    margin:20px 0px;
+}
+.accountsetting p
+{
+    margin-bottom:0px;
+}
+.borderbot
+{
+    border-bottom:1px solid #e1e1e1;
+    display:inline-block;
+    width:100%;
+    margin:10px 0px;
+}
+.payoutinfo, .emailadd, .directdeposit
+{
+    display:none;
+}
+.payaccount
+{
+    display:inline-block;
+    width:100%;
+}
+.payoutinfo, .emailadd .form-group, .mainpaypal .form-group
+{
+    margin-top:30px;
+}
+.payoutinfo h5
+{
+    font-family: OpenSansSB;
+}
+.accountcheck
+{
+    margin:20px 0px;
+    display:inline-block;
+    width:100%;
+}
+.payoutinfo .radio
+{
+    margin:0px;
+}
+.payoutinfo .footpro, .emailadd .footpro
+{
+    margin-top:20px;
+    display:inline-block;
+    width:100%;
+}
+.payoutinfo .footpro a, .emailadd .footpro a
+{
+    color:#000;
+    text-decoration:underline;
+}
+.payoutinfo .footpro a:hover, .emailadd .footpro a:hover
+{
+    text-decoration:none;
+}
+.UpcomingR .adidasimg
+{
+    padding-top:20px;
+}
+.Trending .adidasimg h5
+{
+    font-family: OpenSansSB;
+}
+.UpcomingR .adidasimg h5
+{
+    font-family: OpenSansSB;
+    font-size:14px;
+    margin-bottom:10px;
+}
+.visadiv .footpro
+{
+    margin-top:0px;
+}
+.visadiv label, .shipingadd label
+{
+    margin-bottom:15px;
+}
+.navbar-right
+{
+    font-size:16px;
+}
+.tophed
+{
+    font-size:12px;
+}
+.sneaker .brandmain p
+{
+    font-size:16px;
+    line-height:1.44;
+    margin-bottom:0px;
+}
+
+.idea-gallery a {min-height:200px; vertical-align:middle; display:block;}
+.idea-gallery a:nth-of-type(4n+1) { clear: left; }
+.product-carousel .product-grid .product-thumb-info h2 {min-height:40px; line-height:26px;}
+
+/*  Search Page  30/04/2019*/
+.search-block-full {display:block; width: 100%; clear:both; background:#fff; padding:10px 0; margin-top: 40px;}
+.searchInnerdiv, .searchInnerdiv form {float:left; width:100%; margin:0; padding:0;}
+.searchInnerdiv input {float:left; width: 100%; padding:10px; height:50px; background:#fff; border:0; font-size:30px; color:#333; text-align:center;}
+.search-block-result-header {float:left; width:100%; padding:20px 0; margin:20px 0; background:#fff; }
+.search-block-result-header h2 {color:#111; font-size:18px; margin:0; padding:5px 0;}
+.search-block-result-header .searchResultLeft {float:left;}
+.search-block-result-header .searchResultRight {float:right;}
+.searchResultRight label, .searchResultRight select{float:left; padding:10px 0;}
+.searchResultRight label {font-size:16px; color:#222;}
+.searchResultRight select { text-align:center; margin-left:10px;background:#fff; border:1px solid #dbdbdb; width:120px; padding:10px height:50px;}
+.search-page-pagination {margin-top:50px;}
+.search-page-pagination li.active a{background:#333; color:#fff; border-color:#333;}
+
+.search-page-pagination li a{ color:#111;}
+
+
+/*  order detail Page  02/05/2019*/
+
+.productPic {  margin-top:100px;}
+.productPic img {max-height:240px;}
+.OrderSummary .summaryInner {  display: inline-block;  width: 100%;  max-width: 400px;  margin-top:50px; padding:15px 20px; box-shadow: 0px 0px 30px rgba(0,0,0,0.08);}
+.OrderSummary h2, .OrderSummary h4, .OrderSummary ul, .OrderSummary li {float:left; width:100%; list-style:none; margin:0; padding:0;}
+.OrderSummary h2 {color:#9013FE; font-size:20px; font-weight:500; padding:15px 0 0 0;}
+.OrderSummary h4 {color:#9B9B9B; font-size:14px; font-weight:400; padding:10px 0}
+.OrderSummary ul li { margin:10px 0;}
+.OrderSummary ul li p  {text-align:left; float:left; width:70%; margin:0; font-size:16px; font-weight:500; color:#4A4A4A;}
+.OrderSummary ul li span  {float:left; width:30%; font-size:16px; font-weight:500; color:#4A4A4A;}
+.OrderSummary ul li:last-of-type {padding-top:10px; margin-top:0px; border-top:1px solid #eaeaea;}
+.helpText { float: left; width: 100%; text-align: center;  margin-top: 50px;}
+.helpText p, .helpText p a {color:#9013FE;}
+.helpText h4 { padding-bottom: 5px; color: #333; font-size: 18px;}
+.orderSuccessBottom {float:left; width:100%; padding:10px; }
+.orderSuccessBottom p {font-size:13px; font-weight:400; letter-spacing:1px; color:#9B9B9B;}
+.shareOrder {float:left; width:100%; padding-top:50px;}
+.shareOrder p {font-weight:600; font-size:18px; letter-spacing:1px; color:#777;}
+.shareOrder a {display:inline-block; padding:5px;}
+
+
+/* vip css */
+
+
+/* login */
+
+
+input[type="button"], input[type="submit"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+body {font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; margin:0; padding:0; position: relative;}
+body, html {height:100%;}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.hype-signupform .row{
+    margin:0px;
+    padding:0px;
+}
+
+/*-- //Reset-Code --*/
+
+.hype-signupform{
+    padding:0;
+}
+.left_grid_info h1 {
+    font-size: 45px;
+    margin: 1em 0em .5em 0em;
+    color: #333;
+    font-weight: 700;
+}
+
+.hype-signupform input[type="email"], .hype-signupform input[type="text"] {
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    width:93%;
+    display:inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.hype-signupform input[type="Password"] {
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    width:93%;
+    display:inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.hype-signupform .input-group {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 3px 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.hype-signupform .btn-block {
+    background:#9013FE;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    padding: 12px 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.hypeLogin_info h2 {
+    display: inline-block;
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #333;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.hypeLogin_info h4 {
+    display: inline-block;
+    font-size: 15px;
+    padding: 8px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+a.btn.btn-block.btn-social.btn-facebook {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hypeLogin_info {
+    flex-basis: 50%;
+    -webkit-flex-basis: 50%;
+    box-sizing: border-box;
+    padding: 3em 4em;
+    text-align:center;
+    vertical-align: middle;
+    overflow: hidden;
+    position: relative;
+    /* -webkit-box-shadow: 1px 0px 15px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 0px 15px 0px rgba(0,0,0,0.2);
+    box-shadow: 1px 0px 15px 0px rgba(0,0,0,0.2); */
+}
+.hypeLogin_infoInner {display: inline-block; text-align: left; max-width: 500px; width:100%;}
+
+.login-check {
+    position: relative;
+}
+.hypeLogin_info .login-check label{
+    text-transform: capitalize;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #000;
+}
+.checkbox i {
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    text-align: center;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #777;
+    outline: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    cursor: pointer;
+}
+.checkbox input:checked + i:after {
+    opacity: 1;
+}
+.checkbox input + i:after {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+    -ms-transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -webkit-transition: opacity 0.1s;
+}
+.checkbox input + i:after {
+    content: url(../img/tick.png);
+    top: 0px;
+    left: 2px;
+}
+.checkbox {
+    position: relative;
+    display: inline-block;
+    padding-left: 25px !important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #fff;
+}
+input[type="checkbox" i] {
+/* display: none; */
+}
+.sidebar-filters .checkbox {
+    display: block;
+    clear: both;
+}
+
+.sidebar-filters .checkbox label {color:#333; font-size:13px;}
+
+.agile_info {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    height:100%;
+}
+.left_grid_info {
+    padding-right: 3em;
+}
+.w3l_form {
+    padding: 0px;
+    flex-basis: 50%;
+    -webkit-flex-basis: 50%;
+}
+.hypeLogin_info p {
+    padding-bottom: 30px;
+}
+p.account,p.account1 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    line-height: 1.5em;
+    font-size: 13px;
+}
+p.account a,p.account1 a {
+    color:#9013FE;
+    font-size: 11px;
+    text-decoration: underline;
+}
+p.account a:hover,p.account1 a:hover {
+    text-decoration: none;
+}
+.hypeLogin_info label {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 13px;
+    padding-left: 0px;
+}
+h3.w3ls {
+    margin: 10px 0px;
+    padding-left: 60px;
+}
+h3.agileits {
+    padding-left: 10px;
+}
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
+.input-group span.fa {
+    font-size: 16px;
+    vertical-align: middle;
+    box-sizing:border-box;
+    float:left;
+    text-align: center;
+    width:6%;
+    padding: 15px 0px;
+    color: #222;
+}
+
+
+.footer p a {
+    color: #333;
+}
+
+
+
+/* added styles  */
+
+.hype-sign-block {max-width: 600px; width:100%; display: inline-block; padding:50px 0 0 0; text-align: left;}
+.hype-sign-block img.hype-formLogo {max-width:200px; display:inline-block; margin-top:30px; margin-bottom:10px;}
+.hype-sign-block h1 {margin-top:0;}
+.hype-overlayform {position: absolute;left:-105%; top:0; width:100%; height:100%; background:#fafafa; z-index: 999; transition:all ease 450ms; -webkit-transition:all ease 450ms; -ms-transition:all ease 450ms;}
+.hypeSignIn-Blocks .hype-overlayform { background: #9013FE;}
+.hypeSignUp-Blocks .hype-overlayform { background: #121212;}
+.hype-signupform { display: block;height: 100%;}
+.hypeSignUp-Blocks .hype-overlayform h1, .hypeSignUp-Blocks .hype-overlayform p, .hypeSignIn-Blocks .hype-overlayform h1, .hypeSignIn-Blocks .hype-overlayform p {color:#fafafa;}
+
+
+.hype-overlayform.showOverlay {left:0; transition:all ease 450ms; -webkit-transition:all ease 450ms; -ms-transition:all ease 450ms;}
+#toggleOverlay {}
+span#directbuymessage, span#directsellmessage {font-size:15px;}
+.header-login {color:#000;}
+
+.vip-plan-terms h1 {font-weight:700; text-transform:uppercase; font-size:30px; margin-top:60px;}
+.vip-plan-terms p { color:#555; margin:35px 0 15px 0; font-size:18px;}
+.vip-plan-terms a { color:rgba(144,49,254,1); margin:15px 0; font-size:18px; display: inline-block;}
+.vip-features .feature-block:nth-of-type(3n+2) {
+    clear: left;
+}
+
+.error{color: #B94A48; font-size: 0.9em;}
+
+
+
+
+/********************************************Laptop Responsive********************************************************/
+
+.faq, .contact
+{
+    margin-top:50px;
+    min-height:650px;
+}
+
+.contact .leftcontect .headpar
+{
+    margin-bottom:35px;
+}
+.contact .leftcontect .form-group
+{
+    margin-bottom:35px;
+}
+.contact .rightcontect h4
+{
+    font-family: OpenSansR;
+    font-size:16px;
+    line-height:28px;
+    margin-bottom:18px;
+}
+.forgetpass
+{
+    min-height:650px;
+}
+.mobilefilt
+{
+    display:none;
+}
+
+.paginations .pagination > li > a,
+.pagination > li > span {
+    background: transparent;
+    border-top: 0;
+    border-bottom: 0;
+    color: #000;
+    font-weight: 500;
+    font-size: 13px;
+    /* transform: skew(-20deg); */
+}
+.paginations .pagination > li:first-child > a,
+.pagination > li:first-child > span {
+    border-left: 0;
+}
+.paginations .pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    border-right: 0;
+}
+.paginations .pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background: #333!important;
+    color: #fff;
+    border-color: #333;
+}
+
+.product-carousel .product-grid .product-thumb {
+    min-height: 90px;
+}
+
+.product-carousel .product-grid .product-thumb-info h2 {
+    min-height: 50px;
+    line-height: 24px;
+}
+
+.product-carousel .product-grid .product-thumb {height:115px;}
+.product-carousel .product-grid .product-thumb img {max-height:100px;}
+.product-slider .lSSlideOuter .lSPager.lSGallery li { height: 90px; display:table;}
+.product-slider .lSSlideOuter .lSPager.lSGallery li a {display:table-cell;vertical-align:bottom; }
+.hypeLogin_infoInner p {margin:0;}
+.hypeLogin_info label {margin-bottom:0; font-weight:700;}
+.hype-signupform .input-group {width:100%;}
+
+.header-login ul { float: right;  padding: 0; list-style: none;}
+.header-login ul li {float:left; margin:5px 0; } 
+.header-login ul li + li a {border-left:1px solid #ccc; line-height:20px; min-height:20px;}
+.pagination li {display: inline-block;}
+.pagination > li > span {font-size:15px;}
+
+
+.sidebarMobileView {display:none !important; float:left; width:100%; position: relative; z-index: 100; border-top:1px solid #eaeaea; border-bottom:1px solid #eaeaea; padding:10px 0; margin: -20px 0 30px 0;}
+.sidebarMobileView button {  background: #fff;  border: 0;  padding: 5px; box-shadow:none; outline: none; cursor: pointer;}
+.sidebarMobileView button span {padding-right:10px;}
+.contentPages {  min-height: 700px;}
+
+
+/* contact page ============================= */
+
+.contactUsPage h1 { font-size: 30px; color:#555;}
+.contactUsPage h2 { font-size:16px; margin-top:0; color:#ddd; font-weight:400; margin-bottom:30px;}
+.contactUsPage label {font-size: 14px; text-align: left; color: #484F4D;margin-bottom:5px; font-family: 'Helvetica 65 Medium'; font-weight: 500; letter-spacing: 1px;}
+.contactUsPage .input-field {  margin-top: 17px;}
+.contactUsPage .innerdiv { padding: 30px;  background: #fff; box-shadow: 0px 0px 40px rgba(0,0,0,0.08); text-align: left; display: inline-block; width: 100%; max-width: 600px;}
+.contactUsPage .input-field input, .contactUsPage .input-field select, .contactUsPage .input-field textarea {border:1px solid #eaeaea; color: #555;padding: 0 14px;  font-weight:400;  height: 45px; line-height:45px; font-family: 'Helvetica 65 Medium';}
+.contactUsPage .input-field textarea {height:120px; resize:none; line-height:normal; padding-top:10px; padding-bottom:10px;}
+.contactUsPage .input-field input[type="submit"] { width: 100px;  padding: 10px; line-height: normal; color: #fff; background:#9013FE;  font-weight: 600; letter-spacing: 2px; text-transform: uppercase; padding-top: 12px;}
+.sidebarOverlay { display:none;  position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; z-index: 99; background: rgba(255,255,255,0.5);}
+.product-listing, .contentPages {min-height:1024px;}
+.contentPages {margin-top:40px;}
+.search-block-result-header {margin:0; text-align:left;}
+.noProduct { display: block; clear: both; text-align: left; font-size: 40px;}
+.borderBreak { display: block; clear: both;  margin: 30px 0; width: 100%;}
+.vip-sorting-form .select-sort select {background:#fff;}
+.hypeContentText {margin-top:0 !important;  color:#293136;}
+.hypeContentText p {font-size:14px; font-weight:500; color:#293136; }
+.sectionTitle {margin-bottom:30px;}
+.hypeContentText ul {margin:20px 0; padding:0px 0px 0px 30px; font-weight:600;}
+.hypeContentText h2 {font-size:18px; color:#333; }
+.hypeContentText strong {font-family: 'Helvetica Neue Bold' !important;}
+.hypeContentText ul li { padding:4px 0;}
+
+
+
+ 
+
+
+/* =======================* Responsive *======================== */
+
+@media only screen and (min-width:768px){
+    #myModalhed.modalnav, .modal-backdrop {display:none !important;}
+
+    }
+
+
+@media only screen and (max-width:1640px){
+
+    nav.navbar .nav>li>a {padding: 10px 15px !important;}
+    .navbar-form .form-group { width: 300px;}
+
+}
+
+@media screen and (max-width: 1440px){
+    .container {  width: 70%; margin: 0 auto; }
+     
+}
+
+
+
+@media screen and (max-width: 1366px){
+    .container { width: 75%; }
+    .left_grid_info h1 { font-size: 40px;}
+    .hypeLogin_info p { padding-bottom: 15px;}
+    .hypeLogin_info {padding:1em 2em;}
+    .hype-signupform .input-group { margin-bottom: 15px;padding: 2px 10px;margin-top:5px; }
+    .hype-signupform input[type="email"], .hype-signupform input[type="text"], .hype-signupform input[type="Password"] { padding:5px 10px;}
+    .hypeLogin_info label {font-size:11px;}
+    p.account, p.account1 {padding:0; margin:2px 0;}
+    .navbar-form .form-group { width:auto;}
+    .product-listing, .contentPages {min-height:400px;}
+}
+
+
+@media screen and (max-width: 1080px){
+    .container { width: 80%; }
+    .hypeLogin_info h2 { font-size: 24px; letter-spacing: 1px; }
+    .left_grid_info h1 { font-size: 35px; }
+    .hypeLogin_info { padding: 3em 3em; }
+    nav.navbar .nav>li>a { padding: 10px 15px !important; }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    .hype-signupform {  padding: 1em 0;}
+    .container { width: 85%; }
+    .left_grid_info { padding-right: 3em; padding-top: 2em;}
+}
+
+
+
+
+
+@media screen and (max-width: 991px){
+    .hypeLogin_info h2 { font-size: 24px; }
+    h1 { font-size: 40px; letter-spacing: 2px; }
+    #accordion > .panel + .panel {  margin: 30px 0;}
+    #accordion > .panel + .panel + label {margin-bottom:20px;}
+    .borderLeft {border:none !important;}
+}
+
+
+@media screen and (max-width: 900px){
+
+    .container { width: 90%; }
+    .left_grid_info h4 { font-size: 1em; }
+    .hypeLogin_info { padding: 3em 2.5em; }
+    .navbar-right .btn-sell {  padding: 10px 15px !important;}
+}
+
+
+
+
+@media screen and (max-width: 800px){
+    .container {  width: 95%; }
+    input[type="text"],input[type="email"],input[type="password"] { font-size: 14px; }
+    .input-group span.fa { font-size: 16px; padding: 13px 0px; }
+    .hypeLogin_info h2 {font-size: 23px;}
+    .hypeLogin_info{width:100%; flex:0 0 auto;}
+
+
+    /* login sign up page ================================ */
+
+    .hypeLogin_info h2 {font-size: 20px;letter-spacing: 0px;}
+    .left_grid_info h1 {font-size: 26px;letter-spacing: 1px;}
+    .hype-overlayform { padding:0px; position:static; left:auto; right: auto; top:0; height:auto;}
+    .hype-sign-block img { max-width: 100%;}
+    .left_grid_info {padding:10px;}
+    .hype-sign-block {text-align:center;}
+    .hypeSignIn-Blocks .hype-sign-block p, .hypeSignIn-Blocks .hype-sign-block h1 {color:#333;}
+    .hypeSignIn-Blocks .hype-overlayform {background:#fff;}
+    .hypeSignIn-Blocks img.hype-formLogo { padding: 15px; max-width: 50% !important ; background: #333; margin-top:0; margin-bottom:30px;}
+    .hype-sign-block p + img {max-width:100px !important; margin-top:0 !important; }
+    .hypeSignUp-Blocks {display: none;}
+    .hypeLogin_infoInner p.account1 { margin-top: 15px; text-align: center;}
+    .hypeLogin_infoInner p.account1 a {font-size:16px;}
+    .hypeLogin_info {float:left; width:100%; flex:inherit; height:auto;}
+    .agile_info {display: block; width: 100%; height:auto;}
+    .hype-sign-block img.hype-formLogo {max-width:300px !important; margin-top:10; margin-bottom:20px;}
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .container {  width: 95%;  }
+    .hypeLogin_info h2 {  letter-spacing: 1px; }
+    .left_grid_info h1 {  font-size: 30px; letter-spacing: 1px; }
+    .left_grid_info { padding-right: 2em; }
+}
+
+
+
+
+@media only screen and (max-width:767px) {
+
+    .sidebarMobileView {display:block !important;}
+    .desktopfilter.mobileFIlter {  display: block;  position: fixed;  z-index: 999;  background: #fff;  box-shadow: 6px 0px 15px rgba(0,0,0,0.09);  top: 0px;  left:-9999px;  width: 200px; padding-left:20px; padding-top:30px;
+        overflow-y: auto; height:100%; transition:all ease 450ms; opacity:0;}
+    .mobileFIlter.sideToggle {left: 0px; transition:all ease 450ms; opacity:1;}
+    .product-listing {clear:both !important;}
+    .mobile-sidebar { float: left; width: 100%; clear:both; }
+    .sideToggle.sidebarOverlay { display:block !important; }
+}
+
+
+
+
+@media screen and (max-width: 736px){
+    .left_grid_info h3 { font-size: 1.7em; }
+    .hypeLogin_info h2 { font-size: 22px;}
+    .hypeLogin_info { padding:10px; }
+    .footer p { font-size: 14px; }
+    .hypeLogin_info h4 { font-size: 14px; }
+    .footer p { margin-top: 0em; margin-bottom: 2em;}
+    .hype-sign-block img {max-width:100% !important;}
+    .hype-sign-block  {padding:25px;}
+     
+}
+
+
+
+@media screen and (max-width: 684px){
+    .hypeLogin_info h2 {font-size: 20px;letter-spacing: 0px;}
+    .left_grid_info h1 {font-size: 26px;letter-spacing: 1px;}
+    .hype-overlayform { padding:0px; position:static; left:auto; right: auto; top:0; height:auto;}
+    .hype-sign-block img { max-width: 100%;}
+    .left_grid_info {padding:10px;}
+    .hype-sign-block {text-align:center;}
+    .hypeSignIn-Blocks .hype-sign-block p, .hypeSignIn-Blocks .hype-sign-block h1 {color:#333;}
+    .hypeSignIn-Blocks .hype-overlayform {background:#fff;}
+    .hypeSignIn-Blocks img.hype-formLogo { padding: 15px; max-width: 50% !important ; background: #333; margin-top:0; margin-bottom:30px;}
+    .hype-sign-block p + img {max-width:100px !important; margin-top:0 !important; }
+    .hypeSignUp-Blocks {display: none;}
+    .hypeLogin_infoInner p.account1 { margin-top: 15px; text-align: center;}
+    .hypeLogin_infoInner p.account1 a {font-size:16px;}
+    .hypeLogin_info {float:left; width:100%; flex:inherit; height:auto;}
+    .agile_info {display: block; width: 100%; height:auto;}
+    .hype-sign-block img.hype-formLogo {max-width:260px !important; margin-top:10; margin-bottom:20px;}
+
+}
+
+
+
+
+@media screen and (max-width: 667px){
+    .container { width:90%; }
+}
+
+
+
+@media screen and (max-width: 640px){
+    h1 { font-size: 37px; }
+    .agile_info { flex-direction: column;}
+    body { background: #FFF;}
+    .left_grid_info { }
+    .header-login a {padding:0 5px;}
+    .top-right.links .container {padding:0;}
+    .top-right.links .container .header-login {}
+    .hypeContentText h1 {font-size:22px;}
+    .hypeContentText h2 { font-size: 15px;}
+}
+
+
+
+@media screen and (max-width: 480px){
+    .w3l_form { padding: 0em; }
+    h1 {font-size: 34px; }
+    .hypeLogin_info { padding:10px; }
+    .footer { margin: 0; }
+    .left_grid_info h1 { margin: 0em 0em .5em 0em; }
+    .login-inner-model .signin p a { display: block; font-weight: bold; font-size: 15px;}
+    .header-login ul li {margin-top:15px;}
+    .header-login ul li a{ margin:0; padding: 0 5px;} 
+    .header-login ul li.myAccountLink {display:none;}
+}
+ 
+
+}
+@media screen and (max-width: 414px){
+
+    h1 { font-size: 32px; letter-spacing: 1px;}
+    .left_grid_info p { font-size: 14px;}
+    .container {width: 90%;}
+    .left_grid_info {padding-top: 1em; }
+    .hypeLogin_info p { font-size: 14px;}
+    .hype-sign-block img.hype-formLogo {max-width: 100% !important;}
+}
+
+
+
+
+@media screen and (max-width: 384px){
+    .left_grid_info h4 {  font-size: .9em;}
+    .left_grid_info h1 { font-size: 21px; letter-spacing: 0px; }
+    .hypeLogin_info h2 { font-size: 18px;}
+}
+
+
+@media screen and (max-width: 375px){
+    .left_grid_info h3 { font-size: 1.5em;}
+}
+
+
+
+@media screen and (max-width: 320px){
+    h1 { font-size: 25px; letter-spacing: 1px; }
+    .hypeLogin_info h2 {font-size: 18px; letter-spacing: 0px; }
+    .btn-danger { padding: 13px 12px; font-size: 13px; }
+    input[type="text"], input[type="email"], input[type="password"] {font-size: 13px; }
+    .footer p { font-size: 13px; }
+    .footer p a{ font-size: 13px;}
+}
+
+
+
+/** /Responsive **/
+
+
+
+
+
+
+/********************************************Mobile Responsive********************************************************/
+@media(max-width:767px) {  
+    .navbar-form .form-group
+    {
+        width:100%;
+    }
+    .navbar-right .btn-sell
+    {
+        width: 150px;
+       
+        margin-top: 10px;
+    }
+    .navbar-default .navbar-nav>li>a {color:#fff !important;}
+    .navbar-collapse#bs-example-navbar-collapse-1 ul.nav li a.btn-sell {color:#333 !important;}
+    .navbar-form {box-shadow:none !important; -webkit-box-shadow:none;}
+    .desktopfilter
+    {
+        display:none;
+    }
+    .mobilefilt a
+    {
+        color:#000;
+        cursor:pointer;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration:underline;
+    }
+    .mobilefilt a:hover
+    {
+        text-decoration:none;
+    }
+    .mobilefilt
+    {
+        display:block !important;
+    }
+    .footer .pull-right
+    {
+        text-align:center !important;
+        display: inline-block;
+        width: 100%;
+    }
+    .sneaker h2
+    {
+        margin-top:20px;
+    }
+    .sneaker
+    {
+        min-height:400px;
+    }
+    .filtermodel .modal-header
+    {
+        border-bottom:none;
+    }
+    .navbar-right
+    {
+        text-align:center;
+    }
+    .navbar-form
+    {
+        border-top:none;
+    }
+    .rightdetail .footbtn .btn-sell
+    {
+        min-width: 120px !important;
+        margin-right:10px !important;
+    }
+    .btn-sell
+    {
+        width:120px !important;
+    }
+    .placeimg
+    {
+        margin-bottom:20px;
+    }
+    .navbar-brand
+    {
+        padding-bottom:5px;
+    }
+    .tophed
+    {
+        padding-bottom:5px;
+    }
+    .navbar-toggle
+    {
+        margin-top:15px;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #000;
+    }
+    .navbar-default .navbar-toggle
+    {
+        border-color: #000;
+    }
+    .placeimg
+    {
+        height: 347px;
+        padding-top: 277px;
+    }
+    .AdidasY, .nike, .Supreme
+    {
+        height: 174px;
+        padding-top: 107px;
+    }
+    .col-sm-20
+    {
+        width:50%;
+    }
+    .footer
+    {
+        text-align:center;
+    }
+    .footer .pull-left
+    {
+        text-align:center;
+        display:inline-block;
+        width:100%;
+    }
+    .sortby .pull-right
+    {
+        float:left !important
+    }
+    .sortby .pull-right .btn-group a .pull-right
+    {
+        float:right !important
+    }
+    .brandmain .col-sm-3
+    {
+        width:50%;
+        float: left;
+    }
+    .sellsearch .searchlist .borderbot
+    {
+        margin-top:0px;
+    }
+    .productchose img
+    {
+        margin-top:0px;
+    }
+    .rightdetail .sizebox
+    {
+        width:22%;
+    }
+    .rightdetail .footpro a.btn-sell
+    {
+        margin-right:25px;
+    }
+    .rightdetail h2
+    {
+        margin-top:40px;
+        margin-bottom: 10px;
+    }
+    .rightdetail h3
+    {
+        font-size:20px;
+    }
+    .preview, .upcomingslid .preview-pic
+    {
+        margin-top:0px;
+    }
+    .rightdetail .footbtn .btn-sell
+    {
+        margin-bottom:15px;
+    }
+    .sortby a.dropdown-toggle .pull-right
+    {
+        float:right !important;
+    }
+    .dropdown-menu
+    {
+        min-width:148px;
+    }
+    .rightdetail
+    {
+        margin-top:50px;
+    }
+    .Congrates .footpro a
+    {
+        margin-top: 10px;
+        display: inline-block;
+    }
+    .myaccountbuy .rightbar .nav li a
+    {
+        padding: 10px 6px 15px 0px;
+    }
+    .table
+    {
+        overflow: auto;
+        display: inline-block;
+    }
+    .nav-tabs .sortby
+    {
+        margin-top:10px;
+    }
+    .accountsetting h5
+    {
+        margin-top:10px;
+    }
+    .payoutinfo h5
+    {
+        margin-bottom:18px;
+    }
+    .Trending h3
+    {
+        font-size:22px;
+        line-height:26px;
+    }
+    .Trending span
+    {
+        font-size:14px;
+        line-height:18px;
+    }
+    .placeimg h4, .AdidasY h4, .nike h4, .Supreme h4
+    {
+        margin-bottom:5px;
+    }
+    .placeimg h4, .AdidasY h4, .nike h4, .Supreme h4
+    {
+        font-size:18px;
+    }
+    .placeimg a, .AdidasY a, .nike a, .Supreme a
+    {
+        font-size:14px;
+    }
+    .mainbanner .col-sm-4
+    {
+        padding-right:15px;
+    }
+    .mainbanner .Yezzy
+    {
+        padding:0px 15px !important;
+    }
+    .mainbanner .Jordan, .mainbanner .col-sm-12
+    {
+        padding-left:15px !important;
+    }
+    .detailpage .preview-pic .highbid
+    {
+        margin:0px;
+    }
+    .sneaker .brandmain p, .Trending .innerdiv p
+    {
+        font-size:14px;
+        line-height:1.3;
+    }
+    .sneaker .brandmain h4, .Trending .innerdiv h4
+    {
+        margin-top:5px;
+    }
+    .detailpage .nav-tabs
+    {
+        padding: 0px 5%;
+    }
+    .modalnav .modal-header
+    {
+        border-bottom:none;
+    }
+    .modalnav .navbar-collapse, .modalnav .navbar-form
+    {
+        border:none;
+    }
+    .modalnav .navbar-collapse
+    {
+        padding:0px;
+    }
+    .modalnav .modal-content
+    {
+        background-color:#000;
+    }
+    .modalnav .close
+    {
+        opacity: .8;
+        color: #fff;
+    }
+    .modalnav .btn-sell
+    {
+        border-color:#fff;
+        background:#fff;
+        margin-bottom:50px;
+    }
+    .modalnav .form-control
+    {
+        background-color: transparent;
+    }
+    .tophed
+    {
+        display:none;
+    }
+
+    .toplogin
+    {
+        display:inline-block;
+        width:100%;
+        text-align:center;
+    }
+    .modalnav .navbar-default .navbar-nav > li > a:hover, .modalnav .navbar-default .navbar-nav > li > a:focus
+    {
+        color:#fff;
+    }
+    .toplogin a
+    {
+        color:#f1f1f1;
+    }
+    .toplogin a:hover
+    {
+        color:#fff;
+    }
+
+    .navbar-collapse#bs-example-navbar-collapse-1 {max-height:auto;}
+    .navbar-collapse#bs-example-navbar-collapse-1 ul.nav {margin-top:20px; text-align:center;}
+    .navbar-collapse#bs-example-navbar-collapse-1 ul.nav li a {position:static; left:auto; top:auto; width:100%; display: block; font-size:18px; display:inline-block; margin-bottom:10px;}
+    .navbar-collapse#bs-example-navbar-collapse-1 ul.nav li a.btn-sell {width:100% !important; max-width:300px;}
+
+}
+ 
+
+
+/********************************************  Responsive  ********************************************************/
+
+@media(min-width:768px) and (max-width:991px) {
+    .navbar-form .form-group
+    {
+        width: 164px;
+    }
+    .nav > li > a
+    {
+        padding:10px 8px;
+    }
+    .navbar-right .btn-sell
+    {
+        padding:10px 20px !important;
+        margin-left:10px;
+        width:100px;
+    }
+    .placeimg
+    {
+        height: 310px;
+        padding-top: 245px;
+    }
+    .AdidasY, .nike, .Supreme
+    {
+        height: 145px;
+        padding-top: 80px;
+        margin-bottom: 20px;
+    }
+    .Trending h3
+    {
+        font-size:26px;
+        line-height: 32px;
+    }
+    .sortby .dropdown-menu
+    {
+        min-width:150px;
+    }
+    .placeimg h4, .AdidasY h4, .nike h4, .Supreme h4
+    {
+        margin-bottom: 3px;
+        font-size: 18px;
+    }
+    .placeimg a, .AdidasY a, .nike a, .Supreme a
+    {
+        font-size:14px;
+    }
+    .adidasimg img
+    {
+        height:auto;
+    }
+    .rightdetail .footbtn .btn-sell
+    {
+        margin-right:10px;
+    }
+    .rightdetail .newCondition
+    {
+        margin-top:20px;
+        margin-bottom:15px;
+    }
+    .rightdetail .sizebox h5
+    {
+        margin-bottom:2px;
+    }
+    .rightdetail .sizebox p
+    {
+        margin-bottom:5px;
+    }
+    .sneaker .brandmain p, .Trending .innerdiv p
+    {
+        font-size:14px;
+        line-height:1.3;
+    }
+    .sneaker .brandmain h4, .Trending .innerdiv h4
+    {
+        margin-top:5px;
+    }
+    .Trending span
+    {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .nav-tabs .pull-right .sortby
+    {
+        margin-top:10px;
+    }
+    .footer
+    {
+        padding:10px 0px;
+    }
+    .footer .pull-right {
+        margin-top: 9px;
+    }
+
+
+}
+
+/********************************************Tab Responsive********************************************************/
+
+/********************************************Laptop Responsive********************************************************/
+@media(min-width:992px) and (max-width:1199px) {
+
+    .sortby .btn-group
+    {
+        min-width: 97px;
+    }
+    .navbar-form .form-group
+    {
+        width: 220px;
+    }
+    .placeimg
+    {
+        height:400px;
+        padding-top: 326px;
+    }
+    .AdidasY, .nike, .Supreme
+    {
+        height:190px;
+        padding-top: 113px;
+    }
+    .placeimg h4, .AdidasY h4, .nike h4, .Supreme h4
+    {
+        margin-bottom:8px;
+    }
+
+}
+
+
+
+@media (min-width:1200px){
+
+    .outfit-ideas .gallery a img{
+        height:130px;
+    }
+
+}

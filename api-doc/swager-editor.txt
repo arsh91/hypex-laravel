@@ -1,0 +1,59 @@
+swagger: "2.0"
+info:
+  title: Kilig API
+  description: Kilig Dating Api Doc
+  version: 1.0.0
+host: localhost:4000
+basePath: /
+schemes:
+  - http
+  - https
+paths:
+  /register-phone:
+    post:
+      tags:
+      - "Registor User Phone Number"
+      summary: "Registor User Phone Number"
+      operationId: "addPet"
+      consumes:
+      - "application/x-www-form-urlencoded"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "phone"
+        in: "formData"
+        description: "this is my phone number"
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "{'message':'OTP sent','status':'200','response':{'otp':117545}}"
+  /settings/view-user-discovery:
+    get:
+      tags:
+      - "View User Discovery Settings"
+      summary: "Updates a pet in the store with form data"
+      description: ""
+      operationId: "updatePetWithForm"
+      consumes:
+      - "application/x-www-form-urlencoded"
+      produces:
+      - "application/xml"
+      - "application/json"
+      parameters:
+      - name: "x-access-token"
+        in: "header"
+        description: "ID of pet that needs to be updated"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "{'message':'discovery settings details','status':200,'response':{'age_visibility':0,'distance_visibility':0,'show_men':0,'show_women':0,'show_on_tinder':0,'max_distance':0,'distance_type':0,'age_start':0,'age_end':0}}"
+definitions:
+  RegPhone:
+    type: "object"
+    properties:
+      phone:
+        type: "integer"
+    xml:
+      name: "Order"

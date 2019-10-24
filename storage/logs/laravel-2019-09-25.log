@@ -1,0 +1,12 @@
+[2019-09-25 14:27:38] local.ERROR: Maximum execution time of 180 seconds exceeded {"userId":1,"email":"admin@yopmail.com","exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 180 seconds exceeded at /home/jobvaneh/public_html/hypex.jobvacancyresult.com/vendor/laravel/framework/src/Illuminate/Support/Str.php:177)
+[stacktrace]
+#0 {main}
+"} 
+[2019-09-25 14:32:11] local.ERROR: Maximum execution time of 180 seconds exceeded {"userId":1,"email":"admin@yopmail.com","exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 180 seconds exceeded at /home/jobvaneh/public_html/hypex.jobvacancyresult.com/vendor/laravel/framework/src/Illuminate/Support/Str.php:177)
+[stacktrace]
+#0 {main}
+"} 
+[2019-09-25 14:35:57] local.ERROR: Maximum execution time of 180 seconds exceeded {"userId":1,"email":"admin@yopmail.com","exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Maximum execution time of 180 seconds exceeded at /home/jobvaneh/public_html/hypex.jobvacancyresult.com/vendor/laravel/framework/src/Illuminate/Support/Str.php:177)
+[stacktrace]
+#0 {main}
+"} 

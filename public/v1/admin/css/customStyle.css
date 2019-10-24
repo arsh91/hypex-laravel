@@ -1,0 +1,141 @@
+.image_upload{
+  border:1px solid #ebedf2;
+  padding: 10px;
+  height:150px;
+  width: 150px;
+  position: relative;
+      display: inline-block;
+    margin-right: 20px;
+}
+
+.image_upload img{
+  width:100%;
+  height:100%;
+}
+
+.image_upload button{
+  width:100%;
+  height:100%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  border:none;
+background-color: rgba(0,0,0,0.2);
+visibility: hidden;
+
+}
+
+.image_upload button i{font-size:50px; color:#fff; }
+.image_upload:hover button{ visibility:visible; }
+
+
+
+/*6-2-19*/
+.main-panel .add_btntable{
+  display: inline-block;
+  float: right;
+  margin-bottom: 20px;
+}
+
+.main-panel h4.card-title {
+    display: inline-block;
+}
+
+.main-panel select.custom-select.custom-select-sm.form-control.form-control-sm {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.main-panel div.dataTables_wrapper div.dataTables_length select {
+    width: 60px;
+}
+
+.main-panel i.mdi.mdi-table-row-remove {
+    color: black;
+}
+
+.removeClass a.clickCrossIcon {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.card-body .alert {
+    margin-top: 20px;
+}
+
+/* 07-01- 2018 */
+
+/*.rightSide{ margin-top: -10px;float: right;    margin-bottom: 20px;}*/
+.rightSide{ float: right;}
+.mtop20{margin-top:30px;}
+.theadnew{ background:#f2edf3; }
+.divide{ width:100%; display: block; float: left;}
+.table th{font-weight:bold!important; }
+.table th, .table td{line-height:22px; }
+.imageView{    width: 190px;
+    height: 190px;
+    padding: 5px;
+    border: 1px solid #eaeaea;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;}
+    .imageView img{ width:100%; height:100%;}
+.imageHolder{
+  padding:0px;
+  margin-top:20px; 
+}    
+
+.col-half {float:left; max-width:50%; width:100%; }
+.pro-details ul{margin:0; list-style: none; padding:0; float:left; width:100%;}
+.pro-details ul li {float:left; width:100%; padding:15px 0;}
+.pro-details ul li h2 {font-size:14px; font-weight:400 !important; font-family: "ubuntu-light", sans-serif; color:#999; }
+.pro-details ul li p {margin:0;font-size:15px; font-weight:500; color: #333;}
+.pro-images .item{border:1px solid #f3f3f3; max-width:70%;}
+.product-sizes ul.sizes{float:left; list-style: none; width:100%; padding:0; margin:0;}
+.product-sizes ul.sizes li + li{margin-left:15px;}
+.product-sizes ul.sizes li { float:left; width:10%; max-width:55px; text-align:center; padding:10px;  border:1px solid #dbdbdb;}
+.product-sizes ul.sizes li span {font-size:16px; text-transform: uppercase; width:100%; height:40px; line-height:45px;float:left;  }
+
+.full-des {float: left; width:100%;  padding:10px; border:1px solid #f3f3f3;}
+.full-des p{ color:#666; font-size:14px;  font-family: "ubuntu-light", sans-serif; line-height:30px;}
+.pro-images .lightSlider.lsGrab img {max-width:100%;}
+.navbar.default-layout-navbar .navbar-brand-wrapper .navbar-brand img {height:auto; max-width: 112px;}
+
+
+.setDateStyle input[type="text"] {
+    display: inline-block;
+    width: 345px !important;
+    padding: 8px 12px;
+    color: #444;
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+
+.setDateStyle label {
+    color: #999;
+    margin-top: 10px;
+}
+input.adminallproducts , input.adminvipproducts {
+    padding: 8px 12px;
+    color: #444;
+    border-radius: 4px;
+    border: 1px solid #ebedf2;
+    margin-bottom:10px;
+}
+
+table#myTable {
+    border-top: 1px solid #ebedf2;
+}
+
+@media only screen and (max-width:1366px) {
+
+  #userdata td a, #myTablees td a {margin-bottom:3px;}
+
+
+}
+
+
+
+

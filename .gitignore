@@ -1,0 +1,5 @@
+.env
+.env.example
+composer.json
+package.json
+phpinfo.php

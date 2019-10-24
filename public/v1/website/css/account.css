@@ -1,0 +1,170 @@
+
+@font-face {
+font-family: 'Helvetica 45 Light';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica 45 Light'), url('../fonts/HelveticaNeue-Light.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Helvetica Neue Light';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Light'), url('../fonts/HelveticaNeueLight.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Helvetica 65 Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica 65 Medium'), url('../fonts/HelveticaNeue-Medium.woff') format('woff');
+}
+
+
+
+@font-face {
+font-family: 'Helvetica Neue Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue Bold'), url('../fonts/HelveticaNeueBold.woff') format('woff');
+}
+
+
+/* ================== account section ================ */
+.account-section {float:left; width:100%; padding:100px 0; text-align:center; background:url(../img/accountSectionBg.png) no-repeat left 300px; background-attachment: fixed; background-size:600px auto;}
+.account-section .account-form {display:inline-block; width:100%; max-width:880px; padding:30px; background:rgba(2255,255,255,0.5); box-shadow:0px 0px 20px rgba(0,0,0,0.1);}
+ul.navtabsAccount {
+    display: block;
+    clear: both;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width:100%;
+    border-bottom:3px solid #D8D8D8; 
+    margin-bottom:30px;
+    text-align:left;
+}
+ul.navtabsAccount li {
+    display:inline-block;
+    padding:20px 10px;
+    margin:0;
+    margin-top:-3px;
+    position: relative;  
+    max-width:33%;
+    width:100%;  
+    text-align:center;
+
+}
+ 
+ul.navtabsAccount li:after {position:absolute; left:0; bottom:-3px; height:3px; width:0px; background:#484F4D; content:''; transition:all ease 450ms;}
+ul.navtabsAccount li.active:after, ul.navtabsAccount li.active:hover:after {height:3px; width:100%;  transition:all ease 450ms;}
+ul.navtabsAccount li a {font-size:16px; color:#484F4D; font-family: 'Helvetica 65 Medium'; text-decoration:none;}
+.colinput {text-align:left; position:relative; margin:15px 0;}
+.colinput input, .colinput select{float:left; outline:none; box-shadow: none; width:100%; padding:10px; margin:10px 0; border:0; border-bottom:1px solid #dbdbdb; background:#fff; background:transparent; height:50px; font-size:18px; 
+   font-family: 'Helvetica 45 Light'; color:#888; letter-spacing:1px;}
+.colinput label{font-size:16px; font-family: 'Helvetica 45 Light'; color:#888; font-weight:300; transition:all ease 450ms; position:absolute; top:10px; left:20px; letter-spacing:1px; }
+.colinput input:focus, .colinput input:valid {outline:none; box-shadow: none; }
+.colinput input:focus + label, .colinput input:valid + label, .colinput select:focus + label, .colinput select:valid + label {top:-5px; font-size:13px; transition:all ease 450ms; color:#999;}
+.colinput input[type="submit"], .colinput input[type="button"], .colinput button[type=submit] {max-width:200px; border:0; border-radius:30px; background:#222; color:#fff; text-transform:uppercase; font-size:12px; letter-spacing:2px; 
+    line-height:45px; font-family: 'Helvetica 65 Medium'; padding:0; height:45px;}
+.passwordReset .btnFormSubmit button { padding: 0px 30px; max-width:300px;} 
+.passwordReset .signin p{display:block; clear:both; padding-left:15px;}   
+.accountEditRow { clear:both; padding:15px; float:left; width:100%;}
+.account-section + .footer {margin-top:0;}
+.accountEditRow .label, .accountEditRow .inputValue { float: left;  width:30%; color: #222; font-size:14px; text-align: left; color:#484F4D; font-family: 'Helvetica 65 Medium'; font-weight:500;letter-spacing:1px;}
+.accountEditRow .inputValue { width: 50%;   font-family: 'Helvetica Neue Light'; }
+.accountEditRow .inputEdit {float:right; width:auto; font-size:14px;  color:#484F4D; font-family: 'Helvetica 65 Medium';}
+.accountEditRow .inputEdit button {border:0; text-decoration:none;text-decoration:underline; outline:none; background:none;}
+.accountEditBreak { float: left;  width: 100%;  padding-bottom:30px;  border-bottom: 1px solid #eaeaea;}
+.accountEditBreak + .accountEditBreak  {padding-top:30px;}
+.linkCancel a { float: left;   margin: 10px; padding: 10px;color: #444; text-decoration: underline; font-size: 18px;  margin-left: 0;  letter-spacing: 1px;}
+ul.accountTabsColor li.active a{color:#9013FE;}
+ul.accountTabsColor li:after {background:#9013FE;}
+.innerTabsNav, .innerTabsSection, .innerTabsSection .tab-content, .innerTabsNav ul, .innerTabsNav ul li { float: left;  width: 100%; list-style:none; margin:0; padding:0;}
+.innerTabsNav ul li {width:33.333%; margin:15px 0;}
+.innerTabsNav ul li a{font-size:15px; color:#484F4D; font-family: 'Helvetica 65 Medium'; text-decoration:none; text-transform: capitalize; letter-spacing:1px; padding: 15px 0; display: inline-block; width: 100%; border-radius: 3px; transition: all ease 450ms;}
+.innerTabsNav ul li.active a { background: #484F4D; color: #fff; transition: all ease 450ms;}
+.innerTabsSection .tab-content table{width: 100%; text-align: left;}
+.innerTabsSection .tab-content  {padding:15px 0;}
+.innerTabsSection .tab-content table th {font-size:13px; color:#222; padding:10px 0; font-family: 'Helvetica 65 Medium'; font-weight:500;}
+.innerTabsSection .tab-content table td {font-size:13px; color:#9B9B9B; padding:20px 0; font-family: 'Helvetica 45 Light'; font-weight:300; vertical-align: middle;}
+.innerTabsSection .tab-content table tr {vertical-align: middle;}
+.innerTabsSection .tab-content table td i { width: 40px; height: 40px; overflow: hidden; display: inline-block; border-radius: 50%; background: #f9f9f9;  padding: 3px;}
+.innerTabsSection .tab-content table td img {max-width:35px; max-height:35px; margin-right:15px;}
+.accountPagination { float: left; width: 100%; padding: 20px 0; margin-top: 30px;}
+.accountPagination .totalPages, .accountPagination .pageNav { float: left; width: auto; font-size: 16px; font-family: 'Helvetica 65 Medium';}
+.accountPagination .pageNav {float:right;}
+.accountPagination .pageNav a {padding:10px; color:#9013FE; font-size:14px; font-family: 'Helvetica 65 Medium'; font-weight: 300; letter-spacing:1px;}
+.innerTabsSection .tab-content table td span { max-width:400px; display: inline-block; vertical-align: middle;}
+.innerTabsSection .tab-pane, .account-section .tab-pane { float: left;  width: 100%; overflow-x: auto;}
+.account-section .tab-content, .row-fluid  { float: left; width: 100%;}
+.colinput {float:left; width:50%; padding: 0 15px;}
+.promoSection { max-width: 100%;position: relative; width: 100%; padding-right:70px; margin:5px 0; padding:0; border:1px solid #9013FE;}
+.promoSection input[type="text"] {border:0; height:45px; padding-left:10px; padding-right:70px; width:100%; line-height: 45px; font-size:15px; font-weight:500;}
+.promoSection button {border:0; padding:10px; color:#fff; background:#9013FE; text-align:center;
+position: absolute; right:0; top:0; height:100%; font-weight:600; width:70px; cursor:pointer;}
+li.promoAlert {margin-top:0; padding-top:0 !important;}
+li.promoAlert span#promoMsg {margin:0; padding:0; font-size:13px;}
+.offerFields li {width:100%; margin:0; vertical-align:middle; padding:0; margin:0; display:table;}
+.offerFields li p, .offerFields li .fieldCol {display:table-cell; text-align:left;}
+.offerFields li p {width:130px; padding-left:0; margin:0; font-size:14px; font-weight:600; }
+.offerFields li input, .offerFields li select {border-radius:3px; border:1px solid #dbdbdb;
+padding:10px; width:130px; background:#fff;}
+.offerFields li + li {margin-top:10px;}
+.login-check .checkbox input + i:after {    top: -3px; left: 1px;}
+
+@media only screen and (max-width:800px){
+
+    ul.navtabsAccount li {width:32.5%;}
+    .innerTabsSection .tab-content table td span { max-width:200px; }
+    .account-section {margin:30px 0; padding:20px;}
+
+
+
+}
+
+
+@media only screen and (max-width:667px){
+    .innerTabsSection .tab-content table {width:600px; max-width:inherit;}
+    ul.navtabsAccount { float: left;}
+    ul.navtabsAccount li {float:left; width:33.333%; padding-bottom: 10px;}
+    .account-section .account-form { padding: 5px;}
+    ul.navtabsAccount li a { font-size: 14px; line-height: 20px; height: 40px;  display: inline-block;}
+    .innerTabsNav ul li a { font-size: 12px;}
+    .accountEditRow .label { width: 100%;padding-left: 0;}
+    .accountEditRow {padding: 0; }
+    .accountEditRow + .accountEditRow  {margin-top:30px;}
+    .accountEditRow .inputValue { width: 80%;}
+    .linkCancel a {margin:0;}
+    .accountPagination .totalPages, .accountPagination .pageNav {width:100%;}
+    .colinput {width:100%; margin: 5px 0; padding:0;}
+    .pagination>li {  display: inline-block;}
+    .colinput.btnFormSubmit, .colinput.linkCancel {max-width:50% !important;text-align:center;   }
+    .colinput.linkCancel a{text-align:center; float:none; display:inline-block; margin-top: 7px;}
+
+}
+ 
+/*18-April-2019*/
+#shipCheckbox input[type="checkbox"] {
+
+    float: left;
+    width: auto;
+    height: auto;
+
+}
+#shipCheckbox span#shipCheckboxSpan {
+
+    display: inline-block;
+    margin: 6px;
+    padding-left: 10px;
+
+}
+ 
+ 
+
+
+
+
+
+
