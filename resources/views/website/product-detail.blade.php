@@ -678,7 +678,8 @@ The bulk of this week's big drops take place on Saturday. The OG "Hyper Blue" Ni
                 }, 2000); // <-- time in milliseconds
                 return false;
             } else {
-                window.location.href = '/sell-now/' + last_part + '/' + size + '/sellnow';
+                //window.location.href = '/sell-now/' + last_part + '/' + size + '/sellnow';
+				window.location.href = '/product-sell/' + last_part + '/' + size + '/sellnow';
             }
             return false;
 

@@ -58,19 +58,8 @@ class SaveSellRequest extends FormRequest
 			'width' => 'required',
 			'height' => 'required',
 			'weight' => 'required',
-	        'hiddenCurrency' => 'required',
-			
+	        'hiddenCurrency' => 'required'
         ];
     }
-	
-	public function messages()
-    {
-        return [
-            'email.required' => 'Email is required!',
-			'email.unique' => 'Email already exists!',
-            'user_name.unique' => 'UserName is already taken!',
-            'password.required' => 'Password is required!'
-        ];
-    }
-	
+		
 }

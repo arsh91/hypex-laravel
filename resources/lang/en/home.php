@@ -71,7 +71,7 @@ return [
     'THE REQUESTED ACTION IS NOT ALLOWED, KINDLY MAKE AN OFFER' => 'THE REQUESTED ACTION IS NOT ALLOWED, KINDLY MAKE AN OFFER',
     'Make Buy Offer' => 'Make Buy Offer',
     'Sell Now' => 'Sell Now',
-    'Make Sell Offer' => 'Make Sell Offer',
+    'Make Sell Offer' => 'Selling Offer',
     'Related Products' => 'Related Products',
     'MULTI-COLOR' => 'MULTI-COLOR',
     'WOMEN' => 'WOMEN',

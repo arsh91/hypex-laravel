@@ -705,7 +705,7 @@ class ProductsController extends Controller
 	}
 
 
-	public function sellProduct(Request $request , $id = null, $size = null)
+	public function sellProduct(Request $request , $id = null, $size = null, $type = null)
 	{
 		$user_id = Auth::id();
 		if ($id != null && $size != null) {
@@ -724,25 +724,22 @@ class ProductsController extends Controller
 				$bidsData = WebHelper::getProductBidsData($productID);
 				$sizeID = WebHelper::getProductSizeId($size, $productID);
 				$productDetailsData = $bidsData;
+				$productDetailsData['pageType'] = $type;
 				// shipping adddress
 				$userShippingAddrdefault = UsersShippingAddressModel::where('user_id', $user_id)->where(['status' => 1,'default' => 1])->get()->toArray();
+
 				if(!empty($userShippingAddrdefault))
 				{
 					$productDetailsData['productDetails']['shippingAddress'] = $userShippingAddrdefault;
 					$request->session()->put('shippingAddressId', $userShippingAddrdefault[0]['id']);
 
 				}else{
-
-
-$userShippingAddr = UsersShippingAddressModel::where('user_id', $user_id)->where(['status' => 1])->get()->toArray();
-
-if(!isset($userShippingAddr[0]['id'])){
-return redirect('add-shipping-address')->with('success','Please update your PROFILE,SHIPPING & BILLING Address before further action!');
-}
-
-
-
 					$userShippingAddr = UsersShippingAddressModel::where('user_id', $user_id)->where(['status' => 1])->get()->toArray();
+
+					if(!isset($userShippingAddr[0]['id'])){
+						$userShippingAddr[] = array('id'=>'', 'first_name'=>'', 'last_name'=>'', 'full_address'=>'', 'street_city'=>'', 'phone_number'=>'', 'country'=>'', 'province'=>'', 'zip_code'=>'');
+					}
+
 					$productDetailsData['productDetails']['shippingAddress'] = $userShippingAddr;
 					$request->session()->put('shippingAddressId', $userShippingAddr[0]['id']);
 				}
@@ -756,20 +753,32 @@ return redirect('add-shipping-address')->with('success','Please update your PROF
 
 				}else{
 
-$userReturnAddr = UsersBillingAddressModel::where('user_id', $user_id)->where(['status' => 1])->get()->toArray();
-
-if(!isset($userReturnAddr[0]['id'])){
-return redirect('add-shipping-address')->with('success','Please update your PROFILE,SHIPPING & BILLING Address before further action!');
-}
-
-
 					$userReturnAddr = UsersBillingAddressModel::where('user_id', $user_id)->where(['status' => 1])->get()->toArray();
+					
+					if(!isset($userReturnAddr[0]['id'])){
+						$userReturnAddr[] = array('id'=>'', 'first_name'=>'', 'last_name'=>'', 'full_address'=>'', 'street_city'=>'', 'phone_number'=>'', 'country'=>'', 'province'=>'', 'zip_code'=>'');
+					}
+
 					$productDetailsData['productDetails']['returnAddress'] = $userReturnAddr;
 					$request->session()->put('billingAddressId', $userReturnAddr[0]['id']);
 				}
 				$productDetailsData['productDetails']['size'] = $size;
 				$productDetailsData['productDetails']['sizeID'] = $sizeID;
-				//echo "<pre>"; print_r($productDetailsData); echo "</pre>";
+
+				$allBidsData = $productDetailsData['minSellData'];
+				$productDetailsData['productDetails']['sellerOffer'] = false; // to check if user can "Buy Now"
+				if (isset($allBidsData[$size])) {
+					$productDetailsData['productDetails']['sellerOffer'] = true;
+					$selectedBidPrice = $allBidsData[$size];
+
+					$request->session()->put('pricePurchase', $selectedBidPrice);
+					$request->session()->put('product_id', $productID);
+					$request->session()->put('product_size_id', $sizeID);
+
+					$productSellerId = WebHelper::getProductSellerId($productID, $sizeID, $selectedBidPrice);
+					$request->session()->put('product_seller_id', $productSellerId);
+				}
+				//dump($productDetailsData);
 				return view('website.sell-product', $productDetailsData);
 
 			}
@@ -786,37 +795,44 @@ return redirect('add-shipping-address')->with('success','Please update your PROF
 	{
 		$validated = $request->validated();
 		$user_id = Auth::id();
-		//echo "<pre>"; print_r($validated); echo "</pre>"; die('------------');
-		// $saveUsersShippingAddress = UsersShippingAddressModel::create([
-		// 	'first_name' => $validated['shipping_first_name'],
-		// 	'last_name' => $validated['shipping_last_name'],
-		// 	'phone_number' => $validated['shipping_phone'],
-		// 	'province' => $validated['shipping_province'],
-		// 	'user_id' => $user_id,
-		// 	'full_address' => $validated['shipping_full_address'],
-		// 	'street_city' => $validated['shipping_street_city'],
-		// 	'country' => $validated['shipping_country'],
-		// 	'zip_code' => $validated['shipping_zip'],
-		// 	'status' => 1
-		// ]);
+		$saveUsersShippingAddress = UsersShippingAddressModel::updateOrCreate(
+														[
+															'user_id'=> $user_id,
+															'default' => 1
+														],[
+															'first_name' => $validated['shipping_first_name'],
+															'last_name' => $validated['shipping_last_name'],
+															'phone_number' => $validated['shipping_phone'],
+															'province' => $validated['shipping_province'],
+															'full_address' => $validated['shipping_full_address'],
+															'street_city' => $validated['shipping_street_city'],
+															'country' => $validated['shipping_country'],
+															'zip_code' => $validated['shipping_zip'],
+															'status' => 1
+														]);
 
-		//if ($saveUsersShippingAddress->id) {
+		if ($saveUsersShippingAddress->id) {
 
-			// $saveUsersBillingAddress = UsersBillingAddressModel::create([
-			// 	'first_name' => $validated['shipping_first_name'],
-			// 	'last_name' => $validated['shipping_last_name'],
-			// 	'phone_number' => $validated['shipping_phone'],
-			// 	'province' => $validated['shipping_province'],
-			// 	'user_id' => $user_id,
-			// 	'full_address' => $validated['billing_full_address'],
-			// 	'street_city' => $validated['billing_street_city'],
-			// 	'country' => $validated['billing_country'],
-			// 	'zip_code' => $validated['billing_zip'],
-			// 	'status' => 1
-			// ]);
+			$request->session()->put('shippingAddressId', $saveUsersShippingAddress->id);
+			$saveUsersBillingAddress = UsersBillingAddressModel::updateOrCreate(
+														[
+															'user_id'=> $user_id,
+															'default' => 1
+														],[
+															'first_name' => $validated['billing_first_name'],
+															'last_name' => $validated['billing_last_name'],
+															'phone_number' => $validated['billing_phone'],
+															'province' => $validated['billing_province'],
+															'full_address' => $validated['billing_full_address'],
+															'street_city' => $validated['billing_street_city'],
+															'country' => $validated['billing_country'],
+															'zip_code' => $validated['billing_zip'],
+															'status' => 1
+														]);
 
-			//if ($saveUsersBillingAddress->id) {
-
+			if ($saveUsersBillingAddress->id) {
+				
+				$request->session()->put('billingAddressId', $saveUsersBillingAddress->id);
 				$bidDays = 15;
 				//$shippingAddressId = $saveUsersShippingAddress->id;
 				//$billingAddressId = $saveUsersBillingAddress->id;
@@ -857,9 +873,9 @@ return redirect('add-shipping-address')->with('success','Please update your PROF
 				$validated['primary'] = base64_encode($sellerPrimaryID->id);
 
 				return view('website.bid-sell-payment', $validated);
-			//}
+			}
 
-		//}
+		}
 
 	}
 
